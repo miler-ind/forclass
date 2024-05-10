@@ -1,0 +1,17 @@
+.body {background-color: cornflowerblue;}
+.air img {width: 550px; 
+height: 853px; 
+position:absolute;
+left:0px;
+top:0px;
+align-self: center; 
+}
+
+.Argentina img {
+    position: absolute;
+    width: 90px; 
+height: 130px; 
+left:150px;
+top:375px;
+}
+.logo 
