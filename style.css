@@ -1,17 +1,42 @@
 .body {background-color: cornflowerblue;}
-.air img {width: 550px; 
-height: 853px; 
+.air img {width: 35%; 
+height: 100%; 
 position:absolute;
 left:0px;
 top:0px;
 align-self: center; 
 }
 
+.form {position: absolute; left: 40%;}
+
 .Argentina img {
     position: absolute;
-    width: 90px; 
-height: 130px; 
-left:150px;
-top:375px;
+    width: 14.5%; 
+height: 90%; 
 }
-.logo 
+
+.logo {
+    position: absolute;
+    width: 35%;
+    height: 13%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0%;
+    top: 25%;
+}
+
+
+.text  {
+    font-family: 'Norse-Bold', Arial, sans-serif; font-size: 110px;
+     color: aliceblue;
+     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('Norse-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
